@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.logo span {
+  color: #e91e63;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #e91e63;
+}
+
+/* Hero Section */
+.hero {
+  background: url('R.jpg') no-repeat center/cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+
+
+
+.btn {
+  background-color: #e91e63;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #c2185b;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px;
+  gap: 30px;
+  background-color: #fafafa;
+}
+
+.feature {
+  text-align: center;
+  width: 300px;
+}
+
+.feature img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  color: #e91e63;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 0.95em;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
+}
+
+
