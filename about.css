@@ -1,0 +1,38 @@
+
+.about {
+
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+.about h2 {
+  margin-bottom: auto;
+  color: #ad1e55;
+}
+.about ul {
+margin-bottom:10px;
+font-size: 18px;
+margin-left: 0;
+}
+.about ul li{
+  list-style: none;
+}
+.employer img {
+   border-radius: 50px;
+}
+.employer{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color:  rgb(203, 237, 237);
+}
+.mysection{
+  background-color: rgb(203, 237, 237);
+    text-align: center;
+    margin: 0;
+    text-align: left;
+}
+.card{
+  background-color: rgb(203, 237, 237);
+}
+
