@@ -1,0 +1,77 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+:root {
+  --pink-dark: #d81b60;
+  --pink-light: #e83e8c;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--pink-dark) !important;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url("./images/0000.jpg") center/cover no-repeat;
+  padding: 120px 0;
+  text-align: center;
+  color: white;
+}
+
+.btn-main {
+  background-color: var(--pink-light);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.btn-main:hover {
+  background-color: #c2185b;
+}
+
+/* Blog Cards */
+.blog-card {
+  transition: 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Footer */
+footer {
+  background-color: var(--pink-dark);
+  color: white;
+  padding: 60px 0;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: var(--pink-light);
+}
+
+.footer h5 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 15px;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: var(--pink-light);
+}
