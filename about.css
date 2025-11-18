@@ -23,13 +23,18 @@
     .mysection {
       padding: 60px 0;
     }
-    
+    .object h2{
+      color: #d81b60;
+    }
+    .navbar{
+      background-color: #d81b60 !important;
+
+    }
     .about h2 {
       color:#d81b60;
       margin-bottom: 20px;
       font-weight: 700;
     }
-    
     .about p {
       font-size: 1.1rem;
       line-height: 1.7;
