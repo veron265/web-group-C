@@ -7,13 +7,9 @@ body {
   --pink-dark: #d81b60;
   --pink-light: #e83e8c;
 }
-
-/* Navbar */
 .navbar {
   background-color: var(--pink-dark) !important;
 }
-
-/* Hero Section */
 .hero-section {
   background: url("./images/0000.jpg") center/cover no-repeat;
   padding: 120px 0;
@@ -33,8 +29,6 @@ body {
 .btn-main:hover {
   background-color: #c2185b;
 }
-
-/* Blog Cards */
 .blog-card {
   transition: 0.3s;
 }
@@ -42,8 +36,6 @@ body {
 .blog-card:hover {
   transform: translateY(-6px);
 }
-
-/* Footer */
 footer {
   background-color: var(--pink-dark);
   color: white;
