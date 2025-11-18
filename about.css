@@ -1,38 +1,114 @@
 
-.about {
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+    }
+    
+    .navbar-brand, .nav-link {
+      color: white ;
+      font-weight: 600;
+    }
 
-  text-align: center;
-  max-width: 800px;
-  margin: auto;
-}
-.about h2 {
-  margin-bottom: auto;
-  color: #ad1e55;
-}
-.about ul {
-margin-bottom:10px;
-font-size: 18px;
-margin-left: 0;
-}
-.about ul li{
-  list-style: none;
-}
-.employer img {
-   border-radius: 50px;
-}
-.employer{
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  background-color:  rgb(203, 237, 237);
-}
-.mysection{
-  background-color: rgb(203, 237, 237);
-    text-align: center;
-    margin: 0;
-    text-align: left;
-}
-.card{
-  background-color: rgb(203, 237, 237);
-}
-
+    
+    .carousel-item {
+      height: 60vh;
+      min-height: 400px;
+    }
+    
+    .carousel-item img {
+      object-fit: cover;
+      height: 100%;
+    }
+    
+    .mysection {
+      padding: 60px 0;
+    }
+    
+    .about h2 {
+      color:#d81b60;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+    
+    .about p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+    
+    .object {
+      background-color:light pink;
+      padding: 30px;
+      border-radius: 10px;
+      margin: 40px 0;
+    }
+    
+    .object ul {
+      padding-left: 20px;
+    }
+    
+    .object li {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+    
+    .employer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    
+    .card-title {
+      color: #d81b60;
+      font-weight: 600;
+    }
+    
+    .card-img-top {
+      height: 250px;
+      object-fit: cover;
+    }
+    .testimonials {
+      padding: 60px 0;
+    }
+    
+    .testimonial-card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+    
+    .testimonial-text {
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+    
+    .testimonial-author {
+      font-weight: 600;
+      color:#d81b60;
+    }
+    
+    footer {
+      background-color: #d81b60;
+      color: white;
+      padding: 40px 0 20px;
+    }
+    
+    .footer-heading {
+      color: white;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+      .employer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .card {
+        width: 100%;
+        max-width: 300px;
+      }
+    
+  
