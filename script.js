@@ -1,17 +1,17 @@
-// Sample product data
+// Sample product data array\
 const products = [
-    { id: 1, name: "Floral Summer Dress", price: 85000, gender: "women", image: "https://via.placeholder.com/300x400/e83e8c/ffffff?text=Floral+Dress", category: "Dresses", onSale: true },
-    { id: 2, name: "Classic White Shirt", price: 45000, gender: "men", image: "https://via.placeholder.com/300x400/333333/ffffff?text=White+Shirt", category: "Shirts", onSale: false },
-    { id: 3, name: "Denim Jacket", price: 120000, gender: "unisex", image: "https://via.placeholder.com/300x400/1e88e5/ffffff?text=Denim+Jacket", category: "Jackets", onSale: true },
-    { id: 4, name: "Running Sneakers", price: 150000, gender: "unisex", image: "https://via.placeholder.com/300x400/43a047/ffffff?text=Sneakers", category: "Shoes", onSale: false },
-    { id: 5, name: "Elegant Evening Gown", price: 250000, gender: "women", image: "https://via.placeholder.com/300x400/8e24aa/ffffff?text=Evening+Gown", category: "Dresses", onSale: true },
-    { id: 6, name: "Casual T-Shirt", price: 30000, gender: "men", image: "https://via.placeholder.com/300x400/ff9800/ffffff?text=T-Shirt", category: "Tops", onSale: false },
-    { id: 7, name: "Leather Handbag", price: 180000, gender: "women", image: "https://via.placeholder.com/300x400/795548/ffffff?text=Handbag", category: "Accessories", onSale: true },
-    { id: 8, name: "Formal Trousers", price: 75000, gender: "men", image: "https://via.placeholder.com/300x400/546e7a/ffffff?text=Trousers", category: "Bottoms", onSale: false },
-    { id: 9, name: "Knit Sweater", price: 95000, gender: "unisex", image: "https://via.placeholder.com/300x400/f4511e/ffffff?text=Sweater", category: "Tops", onSale: true },
-    { id: 10, name: "Sports Shorts", price: 35000, gender: "unisex", image: "https://via.placeholder.com/300x400/00acc1/ffffff?text=Shorts", category: "Bottoms", onSale: false },
-    { id: 11, name: "Designer Sunglasses", price: 65000, gender: "unisex", image: "https://via.placeholder.com/300x400/263238/ffffff?text=Sunglasses", category: "Accessories", onSale: true },
-    { id: 12, name: "Winter Coat", price: 200000, gender: "women", image: "https://via.placeholder.com/300x400/5d4037/ffffff?text=Winter+Coat", category: "Outerwear", onSale: false }
+    { id: 1, name: "Floral Summer Dress", price: 85000, gender: "women", image: "images/shirt.jpg", category: "Dresses", onSale: true },
+    { id: 2, name: "Classic White Shirt", price: 45000, gender: "men", image: "images/shirt.jpg", category: "Shirts", onSale: false },
+    { id: 3, name: "Denim Jacket", price: 120000, gender: "unisex", image: "images/shirt.jpg", category: "Jackets", onSale: true },
+    { id: 4, name: "Running Sneakers", price: 150000, gender: "unisex", image: "images/shirt.jpg", category: "Shoes", onSale: false },
+    { id: 5, name: "Elegant Evening Gown", price: 250000, gender: "women", image: "images/shirt.jpg", category: "Dresses", onSale: true },
+    { id: 6, name: "Casual T-Shirt", price: 30000, gender: "men", image: "images/shirt.jpg", category: "Tops", onSale: false },
+    { id: 7, name: "Leather Handbag", price: 180000, gender: "women", image: "images/shirt.jpg", category: "Accessories", onSale: true },
+    { id: 8, name: "Formal Trousers", price: 75000, gender: "men", image: "images/shirt.jpg", category: "Bottoms", onSale: false },
+    { id: 9, name: "Knit Sweater", price: 95000, gender: "unisex", image: "images/shirt.jpg", category: "Tops", onSale: true },
+    { id: 10, name: "Sports Shorts", price: 35000, gender: "unisex", image: "images/shirt.jpg", category: "Bottoms", onSale: false },
+    { id: 11, name: "Designer Sunglasses", price: 65000, gender: "unisex", image: "images/shirt.jpg", category: "Accessories", onSale: true },
+    { id: 12, name: "Winter Coat", price: 200000, gender: "women", image: "images/shirt.jpg", category: "Outerwear", onSale: false }
 ];
 
 // Shopping cart and wishlist
