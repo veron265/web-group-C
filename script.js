@@ -1,9 +1,9 @@
-// Sample product data array\
+// Sample product data array/
 const products = [
-    { id: 1, name: "Floral Summer Dress", price: 85000, gender: "women", image: "images/shirt.jpg", category: "Dresses", onSale: true },
+    { id: 1, name: "Floral Summer Dress", price: 85000, gender: "women", image: "images/floral.webp", category: "Dresses", onSale: true },
     { id: 2, name: "Classic White Shirt", price: 45000, gender: "men", image: "images/shirt.jpg", category: "Shirts", onSale: false },
-    { id: 3, name: "Denim Jacket", price: 120000, gender: "unisex", image: "images/shirt.jpg", category: "Jackets", onSale: true },
-    { id: 4, name: "Running Sneakers", price: 150000, gender: "unisex", image: "images/shirt.jpg", category: "Shoes", onSale: false },
+    { id: 3, name: "Denim Jacket", price: 120000, gender: "unisex", image: "images/denim.jpg", category: "Jackets", onSale: true },
+    { id: 4, name: "Running Sneakers", price: 150000, gender: "unisex", image: "images/sneaker.jpg", category: "Shoes", onSale: false },
     { id: 5, name: "Elegant Evening Gown", price: 250000, gender: "women", image: "images/shirt.jpg", category: "Dresses", onSale: true },
     { id: 6, name: "Casual T-Shirt", price: 30000, gender: "men", image: "images/shirt.jpg", category: "Tops", onSale: false },
     { id: 7, name: "Leather Handbag", price: 180000, gender: "women", image: "images/shirt.jpg", category: "Accessories", onSale: true },
@@ -177,7 +177,7 @@ function toggleWishlist(productId) {
     }
     
     updateWishlistCount();
-    renderProducts(); // Re-render to update wishlist button states
+    renderProducts();
 }
 
 // Update cart count
@@ -195,7 +195,6 @@ function updateWishlistCount() {
 
 // Show notification
 function showNotification(message) {
-    // Create a simple toast notification
     const toast = document.createElement('div');
     toast.className = 'position-fixed bottom-0 end-0 p-3';
     toast.style.zIndex = '11';
@@ -214,7 +213,6 @@ function showNotification(message) {
     
     document.body.appendChild(toast);
     
-    // Remove after 3 seconds
     setTimeout(() => {
         document.body.removeChild(toast);
     }, 3000);
@@ -432,7 +430,7 @@ function init() {
     });
     
     // Countdown timer for flash sale
-    let countdownTime = 24 * 60 * 60; // 24 hours in seconds
+    let countdownTime = 24 * 60 * 60;
     const countdownElement = document.getElementById('countdown');
     
     function updateCountdown() {
@@ -453,5 +451,5 @@ function init() {
     updateCountdown();
 }
 
-// Initialize when DOM is loaded
+
 document.addEventListener('DOMContentLoaded', init);

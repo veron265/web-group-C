@@ -7,9 +7,7 @@ body {
   --pink-dark: #d81b60;
   --pink-light: #e83e8c;
 }
-.navbar {
-  background-color: var(--pink-dark) !important;
-}
+
 .hero-section {
   background: url("./images/0000.jpg") center/cover no-repeat;
   padding: 120px 0;

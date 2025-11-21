@@ -6,78 +6,123 @@
   <title>Fashion & Design</title>
   <link rel="stylesheet" href="./fashion.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-  <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <!-- Logo -->
-        <a class="navbar-brand" href="#">SLAYHUB<span class="text-primary">DESIGN</span></a>
-
-        <!-- Toggle button for small screens -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="navbarContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-            <a class="nav-link active" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="collections.html">Collections</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="shop.html">Shop now</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact us</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-            </li>
-        </ul>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-crown me-2"></i>Slayhub
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
     </nav>
 
   <section id="home" class="hero fade-in">
     <div class="hero-text">
       <h1>Style Meets Creativity</h1>
       <p>Explore the latest trends and timeless designs curated by top designers around the world.</p>
-      <a href="#shop" class="btn" id="shopBtn">Shop Now</a>
+      <a href="shop.html" class="btn" id="shopBtn">Shop Now</a>
     </div>
   </section>
 
   <section id="collections" class="features fade-in">
     <div class="feature">
-      <img src="./Fashion-Trends.webp" alt="Fashion 1">
+      <img src="images/Fashion-Trends.webp" alt="Fashion 1">
       <h3>Modern Collections</h3>
       <p>Discover outfits that create a modern person.</p>
     </div>
 
     <div class="feature">
-      <img src="./group-fashion-models-colorful-leather-coats-trendy-colorful-fashion-outfit-winter-collection_893847-15092.jpg" alt="">
+      <img src="images/group-fashion-models-colorful-leather-coats-trendy-colorful-fashion-outfit-winter-collection_893847-15092.jpg" alt="">
       <h3>Creative Designers</h3>
       <p>Meet visionary designers shaping the future of fashion and design.</p>
     </div>
 
     <div class="feature">
-      <img src="./group-fashion-models-stylist-street_433905-25492.jpg" alt="Fashion 3">
+      <img src="images/group-fashion-models-stylist-street_433905-25492.jpg" alt="Fashion 3">
       <h3>Exclusive Trends</h3>
       <p>Stay ahead of the curve with exclusive fashion trends and updates.</p>
     </div>
 
     <div class="feature">
-      <img src="./MG_1990.jpg" alt="Fashion 3">
+      <img src="images/MG_1990.jpg" alt="Fashion 3">
       <h3>Cultural trends</h3>
       <p>Culture fashion is sometimes called fab but it's real gold</p>
     </div>
   </section>
+      <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Slayhub</h5>
+                    <p>Your one-stop destination for the latest fashion trends. We offer high-quality clothing for men, women, and kids at affordable prices.</p>
+                    <div class="social-icons">
+                        <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5>Shop</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5>Help</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Newsletter</h5>
+                    <p>Subscribe to get special offers, free giveaways, and exclusive deals.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email">
+                        <button class="btn btn-pink" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-3 border-top border-secondary">
+                <p>&copy; 2025 Veron - REG NO: 2025-B071-22866. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
   <script>
     document.getElementById("shopBtn").addEventListener("click", function() {

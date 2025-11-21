@@ -13,26 +13,39 @@
     rel="stylesheet"
   />
   <link rel="stylesheet" href="style.css"/>
+      <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="#">SlayHubDesign</a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="nav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item mx-2"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item mx-2"><a class="nav-link" href="#outfits">Trending Outfits</a></li>
-        <li class="nav-item mx-2"><a class="nav-link" href="#combos">Trending Combinations</a></li>
-        <li class="nav-item mx-2"><a class="nav-link" href="#gallery">Gallery</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-crown me-2"></i>Slayhub
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 <section class="hero-section">
   <h1 class="fw-bold">Stay Stylish. Stay Confident.</h1>
   <p class="mb-4">Your ultimate fashion guide — trends, outfits & inspiration.</p>
@@ -119,40 +132,53 @@
 
   </div>
 </section>
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 mb-4">
-        <h5>About SlayHubDesign</h5>
-        <p>SlayHubDesign Blog brings you the latest trends, outfit inspirations, and style guides. Our goal is to keep you stylish, confident, and ahead in the fashion game.</p>
-      </div>
-      <div class="col-md-4 mb-4">
-        <h5>Quick Links</h5>
-        <ul class="list-unstyled footer-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#outfits">Trending Outfits</a></li>
-          <li><a href="#combos">Combinations</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-        </ul>
-      </div>
-      <div class="col-md-4 mb-4">
-        <h5>Connect With Us</h5>
-        <div class="social-icons mb-3">
-          <a href="#"><i class="bi bi-facebook"></i></a>
-          <a href="#"><i class="bi bi-instagram"></i></a>
-          <a href="#"><i class="bi bi-twitter"></i></a>
-          <a href="#"><i class="bi bi-pinterest"></i></a>
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Slayhub</h5>
+                    <p>Your one-stop destination for the latest fashion trends. We offer high-quality clothing for men, women, and kids at affordable prices.</p>
+                    <div class="social-icons">
+                        <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5>Shop</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5>Help</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Newsletter</h5>
+                    <p>Subscribe to get special offers, free giveaways, and exclusive deals.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email">
+                        <button class="btn btn-pink" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-3 border-top border-secondary">
+                <p>&copy; 2025 GABAGAYA CATHERINE - REG NO: 2025-B071-22242. All rights reserved.</p>
+            </div>
         </div>
-        <p>Email: contact@SlayHubDesign.com</p>
-        <p>Phone: +256 123 456 789</p>
-      </div>
-
-    </div>
-    <div class="text-center mt-4">
-      <p>© 2025 Slay Hub SlayHubDesign Blog. All Rights Reserved.</p>
-    </div>
-  </div>
-</footer>
+    </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
